@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo">
+            <h2>To-Do List</h2>
+        </div>
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Sign In</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="todo-container">
+        <h1>Your Tasks</h1>
+        <div class="input-section">
+            <input type="text" id="new-task" placeholder="Add a new task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
